@@ -1,0 +1,22 @@
+{
+  "name": "visualkey-smartcontracts",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start-local-node": "npx hardhat node --hostname 0.0.0.0",
+    "deploy-visualkey-contract": "npx hardhat run --network localhost scripts/deploy.ts",
+    "solhint": "solhint contracts/VisualKey.sol"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-solhint": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "hardhat": "^2.14.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-solidity": "^1.1.3"
+  }
+}
