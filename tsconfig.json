@@ -6,15 +6,6 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "baseUrl": ".",
-    "paths": {
-      "@nomicfoundation/*": [
-        "node_modules/@nomicfoundation/*"
-      ],
-      "@nomiclabs/*": [
-        "node_modules/@nomiclabs/*"
-      ]
-    }
+    "resolveJsonModule": true
   }
 }
